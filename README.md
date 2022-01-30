@@ -1,7 +1,7 @@
 This is an E-Commerce web application.
-Used JSP, HTML, Boostrap for frontend.
-Used Servlets for handling requests.
-Used MySQL as database.
+I have JSP, HTML, Boostrap for frontend, 
+Servlets for handling requests
+and MySQL as the database.
 
 
 
