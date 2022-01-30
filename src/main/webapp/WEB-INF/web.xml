@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>MyCart</display-name>
+  
+  
+  <!-- Register Servlet -->
+  
+    <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.servlets.RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Register Servlet ends -->
+  
+  
+  
+  
+  <!-- Login Servlet -->
+    <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlets.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Login Servlet ends -->
+ 
+ 
+ <!-- Logout Servlet -->
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.servlets.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Logout Servlet ends -->
+  
+  
+  
+  <!-- Add Category -->
+  
+  <servlet>
+    <servlet-name>AddCategoryServlet</servlet-name>
+    <servlet-class>com.servlets.AddCategoryServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddCategoryServlet</servlet-name>
+    <url-pattern>/Category</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Add Category ends -->
+  
+  
+  
+  <!-- Edit Servlet -->
+  
+  <servlet>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>com.servlets.EditServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/Edit</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Edit Servlet ends -->
+  
+  
+  
+  <!-- Delete Servlet -->
+  
+   <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.servlets.DeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Delete Servlet ends -->
+  
+  
+  
+  
+   <!-- Add product Servlet -->
+  
+   <servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>com.servlets.AddProductServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/Product</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Add product Servlet ends -->
+  
+  
+  
+  
+   <!-- Add product to cart -->
+  <servlet>
+    <servlet-name>AddToCart</servlet-name>
+    <servlet-class>com.servlets.AddToCart</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddToCart</servlet-name>
+    <url-pattern>/Cart</url-pattern>
+  </servlet-mapping>
+  
+ 
+  
+  <!-- Add product to cart ends -->
+  
+  
+  
+  <!-- Remove product from cart -->
+  
+  <servlet>
+    <servlet-name>RemoveProductCart</servlet-name>
+    <servlet-class>com.servlets.RemoveProductCart</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RemoveProductCart</servlet-name>
+    <url-pattern>/Remove</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Remove product from cart ends -->
+  
+  
+  <!-- confirm order -->
+  
+  <servlet>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <servlet-class>com.servlets.CheckoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <url-pattern>/ConfirmOrder</url-pattern>
+  </servlet-mapping>
+  
+  
+ 
+  <!-- confirm order ends -->
+  
+  
+  
+  
+  <!-- delivered product -->
+  
+  <servlet>
+    <servlet-name>DeliverServlet</servlet-name>
+    <servlet-class>com.servlets.DeliverServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeliverServlet</servlet-name>
+    <url-pattern>/Delivered</url-pattern>
+  </servlet-mapping>
+  
+  <!-- delivered product ends -->
+  
+  
+  
+  <!-- forget password -->
+  
+    <servlet>
+    <servlet-name>ForgetPasswordServlet</servlet-name>
+    <servlet-class>com.servlets.ForgetPasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ForgetPasswordServlet</servlet-name>
+    <url-pattern>/Forget</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- forget password ends -->
+  
+  
+</web-app>
